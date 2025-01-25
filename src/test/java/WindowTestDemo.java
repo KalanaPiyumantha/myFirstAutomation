@@ -30,6 +30,7 @@ public class WindowTestDemo {
         //Store the parent window
         String parentWindow = driver.getWindowHandle();
 
+
         driver.findElement(By.xpath("//a/button[contains(text(),'click')]")).click();
         Thread.sleep(3000);
 
